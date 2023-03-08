@@ -28,8 +28,8 @@ Model simple Authentication🚀
 # How to use
 
 // Create_user
-   
-   ![image](https://user-images.githubusercontent.com/111516927/223863210-5c07f626-474d-4841-bc32-e89b396527d7.png)
+   ![image](https://user-images.githubusercontent.com/111516927/223863450-62985b91-8123-4502-b305-eda93fd24ffa.png)
+
 
 async function (){
 
@@ -42,6 +42,8 @@ await axios.post(url, {
 }
 
 // Login User 
+   ![image](https://user-images.githubusercontent.com/111516927/223863210-5c07f626-474d-4841-bc32-e89b396527d7.png)
+
 async function (){
 
 await axios.post(url, {
@@ -50,3 +52,8 @@ await axios.post(url, {
 })
 
 }
+
+
+//get User
+
+![image](https://user-images.githubusercontent.com/111516927/223863541-6593b7ea-b361-4606-aa9e-4a5b435c6787.png)
