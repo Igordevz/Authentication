@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import { UserModel } from "../models/User";
+import { UserModel } from "../models/user";
 
 export async function LoginUser(req: Request, res: Response){
 
     const { email, password } = req.body
-
+    
     const Logar = await UserModel.findOne({ email: email, password: password })
 
 

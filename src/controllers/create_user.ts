@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { v4 as uuidv4 } from 'uuid';
-import { UserModel } from "../models/User";
+import { UserModel } from "../models/user";
 
 export async function CreateUser(req: Request, res: Response) {
     
