@@ -7,7 +7,6 @@ export async function LoginUser(req: Request, res: Response){
     
     const Logar = await UserModel.findOne({ email: email, password: password })
 
-
     if(Logar){
         res.status(200).json(Logar)
         return;
